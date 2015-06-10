@@ -2,7 +2,7 @@
 
 # Open specified files in Sublime Text
 # "s ." will open the current directory in Sublime
-alias s='open -a "Sublime Text"'
+alias subl='open -a "Sublime Text"'
 
 # Color LS
 colorflag="-G"
@@ -102,4 +102,4 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
 # init z! (https://github.com/rupa/z)
-. ~/z.sh
+./z.sh
